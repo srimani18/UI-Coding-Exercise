@@ -45,3 +45,49 @@
   }
 
  
+  @media screen and (max-width: 375px) {
+    header {
+      background: #333333;
+      color: #fff;
+      padding: 15px 0;
+    }
+ 
+    .main {
+      flex-direction: column-reverse;
+      background: transparent;
+    }
+ 
+    #grid-container {
+      flex-direction: column;
+      max-width: 90%;
+      margin: auto;
+      background: transparent;
+ 
+    }
+
+    #grid-container span {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 5px;
+      color: #333;
+      padding: 15px 0;
+    }
+ 
+   
+    .btns-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 0 23px;
+      }
+   
+      .btns-container button {
+        margin: 0;
+        max-width: 35%;
+        font-size: 14px;
+      }
+ 
+    footer {
+      background: none;
+    }
+  }
